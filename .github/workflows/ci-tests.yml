@@ -22,4 +22,5 @@ jobs:
         pip3 install pytest
     - name: Run unit tests
       run: |
+        cd /home/runner/work/9.3_ci_cd/9.3_ci_cd
         pytest -v
