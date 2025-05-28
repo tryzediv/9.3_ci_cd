@@ -22,4 +22,4 @@ jobs:
         pip3 install pytest
     - name: Run unit tests
       run: |
-        pytest -v tests/test_calculator.py
+        pytest -v
