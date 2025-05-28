@@ -1,5 +1,5 @@
 import pytest
-from ..calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide
 
 # Тесты для функции add
 @pytest.mark.parametrize("a, b, expected", [
