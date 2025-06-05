@@ -10,7 +10,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Возвращает произведение двух чисел."""
-    return a * b
+    return a / b
 
 
 def divide(a, b):
